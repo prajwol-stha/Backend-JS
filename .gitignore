@@ -4,3 +4,7 @@
 
 # /Data Modelling Mongoose/node_modules
 node_modules/
+
+*.env
+
+#updated file
