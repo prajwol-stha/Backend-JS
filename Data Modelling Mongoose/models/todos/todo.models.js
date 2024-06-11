@@ -24,4 +24,4 @@ const todoSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const Todo = mongoose.model('Todo', todoSchema); //todos in mongodb
+export const Todo = mongoose.model('Todo', todoSchema); //todos in mongodb, it becomes plural. In case it is already plural, it stays as it is. (todos is todos in mongodb not todoss)
